@@ -11,3 +11,4 @@ send_list(Dialogo, append,[Titulo, Texto1, Texto2, Texto3, Botao1, Botao2]),
 send(Dialogo, open).
 somar(N1,N2,R)
 :- atom_number(N1,N1c),atom_number(N2,N2c), Resultado is N1c + N2c,send(R,selection, Resultado).
+
